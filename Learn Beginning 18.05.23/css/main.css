@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600&display=swap');
+
+/* .main-text {                           
+    color: red;
+}
+#text-in{                            
+    color: blue;
+}
+#text-in-bold{
+    color: rgb(95, 226, 19);
+}
+
+div p b, div i {                    
+    color: blueviolet;
+}
+
+.main-link {
+    color: brown;
+    text-decoration:none;
+}
+
+.main-link:hover {                  
+    color: blue;
+    text-decoration: underline;
+    text-decoration-color: red;
+    cursor: pointer;
+}
+
+.main-link:active {
+text-decoration: line-through;
+}
+
+.main-link:visited {
+    text-decoration: line-through;
+    color: gray;
+    }
+
+input {color: rgb(64, 13, 202);}
+input:focus {color: red;}
+
+p.simple:not(:empty) {              
+    color: darkgreen;
+}
+
+p.simple:empty::after {              
+    color: darkgreen;
+    content: attr(title);
+}
+
+#some_id::before {                   
+    content:' 123';
+}
+
+p.main-link::first-letter {
+    color: green;
+}
+
+#text-in:first-of-type {
+    text-decoration: line-through;
+} */
+
+/*#first {
+    background-color: #63aae0;
+    color: aquamarine;
+    background-image: url('https://phonoteka.org/uploads/posts/2023-03/thumbs/1679940276_phonoteka-org-p-kartinki-dlya-fona-saita-foni-oboi-2.jpg');
+    background-repeat: no-repeat; 
+color: #63aae0;
+background: aquamarine 
+url('https://phonoteka.org/uploads/posts/2023-03/thumbs/1679940276_phonoteka-org-p-kartinki-dlya-fona-saita-foni-oboi-2.jpg') center top;
+background-size: cover;
+height: 1000px;
+background-attachment: fixed;
+}
+
+#second {
+    height: 2000px;
+}
+
+input {
+    background-color: black;
+} */
+
+/*Работа с внешним текстом. Внешняя ссылка выше */
+/* .test-text {
+    color:#000;
+    text-align: center;
+    font-size: 1.5em;
+    font-style: normal;
+    font-weight: 00;
+    font-family: 'Dancing Script', cursive;
+    text-transform: lowercase;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    line-height: 30px;
+    cursor: pointer;
+} */
+
+* {
+margin: 0;
+padding: 0;
+}
+
+/*Работа с свойствами блоков. Отсутупы, стили, тип */
+/* .block {
+    background: url('https://img.freepik.com/premium-photo/yellow-lemon-peel-texture-background_322958-491.jpg');
+    height: 200px;
+    width: 200px;
+    border: 2px dotted rgb(255, 200, 0); */
+/*border-bottom: 0;*/
+ /*    border-top-style: solid;
+    border-style: double;
+    border-radius: 10px 70% 15px;
+    opacity: 1;
+    margin: 40px;
+    padding: 20px;
+    display: block;
+} */
+
+body {
+    height: 2000px;
+}
+
+#some_block {
+    background: red;
+    color: #fff;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+ /*    Фиксируем блок при скролле */
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+#header, #footer {
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    border-bottom: 4px solid silver;
+    background: #333;
+    color: #fff;
+    line-height: 70px;
+    margin-bottom: 50px;
+    float: left;
+}
+
+#nav {
+    list-style: none;
+    display: block;
+    float: left;
+    width: 50%;
+    margin-left: 25%;
+    text-align: center;
+    margin-bottom: 50px;
+    position: sticky;
+    top: 0;
+}
+
+#nav li {
+    display: inline;
+    background: #e19898e3;
+    padding: 0 20px;
+    cursor: pointer;
+    border-radius: 5px 5px;
+    position: sticky;
+}
+
+#nav li:hover {
+    color: #fff;
+    background: #333;
+    border-radius: 5px;
+    border-color: #333;
+}
+
+#nav li:not(:last-of-type) {
+    margin-right: 20px;
+}
+
+#main {
+    width: 50%;
+    margin-left: 10%;
+    background: #fafafa;
+    border: 1px solid silver;
+    padding: 20px 2.5%;
+    float: left;
+    position: relative;
+    text-align: center;
+    position: relative;
+    /* Слой */
+    z-index: 1;
+}
+
+#aside {
+    width: 20%;
+    padding: 20px 2.5%;
+    background: #fafafa;
+    border: 1px solid silver;
+    float: left;
+    margin-left: 5%;
+    position: relative;
+    text-align: center;
+    left: -100px;
+    z-index: 0;
+    margin-top: 10px;
+}
+
+#footer {
+    margin-bottom: 0;
+    margin-top: 50px;
+    border-bottom: 0;
+    border-top: 4px solid silver;
+}

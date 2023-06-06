@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600&family=Josefin+Sans:wght@200;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+.Corp {
+    margin-top: 0.1em; /* Отступ сверху */
+    margin-bottom: 0.15em; /* Отступ снизу */
+}
+
+.Slog {
+    margin-top: 0.1em; /* Отступ сверху */
+    margin-bottom: -0.2em; /* Отступ снизу */
+}
+
+#Main-background {
+    background-color: #ffffff;
+    background: url("D:/Project HTML5/Test site1/Images/Main-background2.jpg") center center no-repeat fixed;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#Logo-block {
+    background: url("D:/Project HTML5/Test site1/Images/Logo2.png") center center no-repeat;
+    backface-visibility: hidden;
+    color: #fff;
+    width: 100px;
+    height: 100px;
+    display: block;
+    border-radius: 50%;
+    background-size: cover;
+    top: 20px;
+    left: 50px;
+    position: absolute;
+    cursor: crosshair;
+    position: fixed;
+}
+
+#Main-site {
+    width: 10%;
+    height: 10%;
+    text-align: center;
+/*     border: 3px solid rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.5); */
+    padding: 1px;
+    float: left;
+    top: 30px;
+    left: 150px;
+    position: relative;
+    overflow: hidden;
+    position: fixed;
+}
+
+#left-block {
+    width: 30%;
+    height: 30%;
+    text-align: center;
+    border: 3px solid rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px;
+    float: left;
+    top: 300px;
+    left: 100px;
+    position: relative;
+    overflow: hidden;
+}
+
+
+#nav {
+    list-style: none;
+    display: block;
+    float: center;
+    width: 50%;
+    margin-left: 50%;
+    text-align: center;
+    margin-top: 40px;
+    top: 0;
+    left: 0;
+}
+
+#nav li {
+    display: inline;
+    padding: 10px 10px;
+    cursor: pointer;
+    border-radius: 10px 10px;
+}
+
+#nav li:last-child {
+    padding: 10px 10px;
+    cursor: pointer;
+    border-radius: 10px 10px;
+    float: right;
+    padding: 0px;
+}
+
+ #footer {
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    background-color: rgba(red, green, blue, alpha);
+    color: #050505;
+    line-height: 70px;
+    position: absolute;
+    bottom: 0;
+}
+
+.Menu-text {
+    color:#000;
+    text-align: center;
+    font-size: 1.5em;
+    font-style: normal;
+    font-weight: 00;
+    font-family: 'Josefin Sans', sans-serif;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    line-height: 30px;
+}
+
+.Menu-text1 {
+    color:#000;
+    text-align: center;
+    font-size: 2.5em;
+    font-style: normal;
+    font-weight: 00;
+    font-family: 'Dancing Script', cursive;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    line-height: 30px;
+}
+
+.Left-text {
+    color:#ffffff;
+    text-align: center;
+    font-size: 4vw;
+    font-style: normal;
+    font-family: 'Josefin Sans', sans-serif;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+    line-height: 100px;
+    margin: auto;
+}
