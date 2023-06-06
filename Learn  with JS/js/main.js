@@ -234,6 +234,9 @@ function checkForm(el) {
     }
 return false
 
+
+
+////
     //console.log(state + " - " + pass + " - " + repass);
 }
 
