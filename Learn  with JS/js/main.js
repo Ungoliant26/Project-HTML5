@@ -203,8 +203,11 @@ for (var i = 0; i < spans.length; i++) {
    console.log(spans[i].innerHTML); 
 } */
 
-function checkForm(el) {
-    
+/* document.getElementById('main-form').addEventListener("submit", checkForm);
+
+function checkForm(event) {
+    event.preventDefault();
+    var el = document.getElementById('main-form');
     var name = el.name.value;
     var pass = el.pass.value;
     var repass = el.repass.value;
@@ -232,11 +235,72 @@ function checkForm(el) {
         console.log("Всё верно");
         window.location.href = 'https://itproger.com';
     }
-return false
-
-
-
-////
     //console.log(state + " - " + pass + " - " + repass);
-}
+} */
 
+// Интервалы и таймеры
+
+/* setInterval(my_func, 1000);
+
+var counter = 0;
+function my_func() {
+
+    counter++;
+    console.log("Counter: " + counter);
+} */
+
+// Остановка заданного интервала
+/* var counter = 0;
+var id = setInterval(my_func, 1000);
+function my_func() {
+    counter++;
+    console.log("Прошло сек.: " + counter);
+
+    if(counter == 3)
+    clearInterval(id);
+} */
+
+//Таймер
+/* setTimeout(my_func, 2000);
+
+function my_func() {
+    console.log("Timer work");
+} */
+
+//Дата, время
+
+/* let date = new Date(); 
+
+date.setHours(23);
+date.setMinutes(23);
+console.log("Время: " + date.getHours() + ":" + date.getMinutes()); */
+/* console.log("Год: " + date.getFullYear());
+console.log("Месяц: " + date.getMonth());
+console.log("Дата: " + date.getDate()); */
+
+//Примеры свойств массивов
+
+//let arr = [5, 67, 8, 9, 6, 10, 25, 0];
+//console.log(arr.join(", "));
+//let stroka = arr.reverse().join(", ");
+
+//console.log(stroka.split(", "));
+//console.log(arr.sort((a, b) => a - b)); // сортировка по возрастанию
+
+ //Классы и объекты
+
+ class Person{
+    constructor(name, age, happiness) {
+        this.name = name;
+        this.age = age;
+        this.happiness = happiness;
+    }
+
+    info() {
+        console.log("Human: " + this.name + ". Age: " + this.age);
+    } 
+ }
+
+ let alex = new Person('Alex', 45, true);
+
+ alex.info();
